@@ -11,7 +11,7 @@ const finishSound = document.querySelector('#finish-sound');
 let intervalId;
 let startTime;
 let elapsedTime = 0;
-let timeLeft = 0.1 * 60 * 1000; // 45 minutes in milliseconds
+let timeLeft = 45 * 60 * 1000; // 45 minutes in milliseconds
 
 
 function updateTimer() {
